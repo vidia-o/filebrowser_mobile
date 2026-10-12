@@ -1,0 +1,1033 @@
+{
+  "@@locale": "zh",
+  "appTitle": "文件浏览器",
+  "@appTitle": {
+    "description": "Application title (task switcher / window title)"
+  },
+  "actionCancel": "取消",
+  "@actionCancel": {
+    "description": "Generic dialog dismiss / abort button"
+  },
+  "actionDelete": "删除",
+  "@actionDelete": {
+    "description": "Generic delete action (buttons, menus, tooltips)"
+  },
+  "actionCopy": "复制",
+  "@actionCopy": {
+    "description": "Generic copy-to-clipboard action"
+  },
+  "actionRetry": "重试",
+  "@actionRetry": {
+    "description": "Generic retry action after a failure"
+  },
+  "actionRename": "重命名",
+  "@actionRename": {
+    "description": "Generic rename action (sheet item, dialog title, confirm button)"
+  },
+  "actionDownload": "下载",
+  "@actionDownload": {
+    "description": "Generic download action"
+  },
+  "actionCreate": "创建",
+  "@actionCreate": {
+    "description": "Generic create action (FAB tooltip, new-folder confirm)"
+  },
+  "actionShare": "分享",
+  "@actionShare": {
+    "description": "Generic share action (system share-sheet)"
+  },
+  "actionMove": "移动",
+  "@actionMove": {
+    "description": "Move action in the selection bar"
+  },
+  "actionDone": "完成",
+  "@actionDone": {
+    "description": "Generic dialog close button"
+  },
+  "actionDetails": "详情",
+  "@actionDetails": {
+    "description": "Opens the file details sheet"
+  },
+  "actionOpenWith": "用其他应用打开…",
+  "@actionOpenWith": {
+    "description": "Hand a file off to a native app"
+  },
+  "actionPause": "暂停",
+  "@actionPause": {
+    "description": "Pause a transfer"
+  },
+  "actionResume": "继续",
+  "@actionResume": {
+    "description": "Resume a paused transfer"
+  },
+  "actionLock": "锁定",
+  "@actionLock": {
+    "description": "Lock the app (sign out, keep credentials)"
+  },
+  "actionSignOutForget": "退出登录并清除",
+  "@actionSignOutForget": {
+    "description": "Sign out and erase stored credentials"
+  },
+  "actionSkip": "跳过",
+  "@actionSkip": {
+    "description": "Skip this item in a conflict prompt"
+  },
+  "actionKeepBoth": "保留两者",
+  "@actionKeepBoth": {
+    "description": "Keep both files in a conflict prompt (auto-renames)"
+  },
+  "actionOverwrite": "覆盖",
+  "@actionOverwrite": {
+    "description": "Overwrite the existing item in a conflict prompt"
+  },
+  "actionContinue": "继续",
+  "@actionContinue": {
+    "description": "Generic confirm button to proceed after a warning"
+  },
+  "loginTitle": "连接到文件浏览器",
+  "@loginTitle": {
+    "description": "Login screen app bar title"
+  },
+  "loginServerUrlLabel": "服务器地址",
+  "@loginServerUrlLabel": {
+    "description": "Label of the server URL field"
+  },
+  "loginServerUrlHint": "https://files.example.com",
+  "@loginServerUrlHint": {
+    "description": "Hint (example value) for the server URL field"
+  },
+  "loginUsernameLabel": "用户名",
+  "@loginUsernameLabel": {
+    "description": "Label of the username field"
+  },
+  "loginPasswordLabel": "密码",
+  "@loginPasswordLabel": {
+    "description": "Label of the password field"
+  },
+  "loginValidationRequired": "必填",
+  "@loginValidationRequired": {
+    "description": "Validator message for an empty required field"
+  },
+  "loginValidationHttpsOnly": "请使用 https://，不允许不安全的 http://",
+  "@loginValidationHttpsOnly": {
+    "description": "Validator message when the server URL is not https"
+  },
+  "loginContinue": "继续",
+  "@loginContinue": {
+    "description": "Login submit button"
+  },
+  "loginShowPassword": "显示密码",
+  "@loginShowPassword": {
+    "description": "Tooltip to reveal the password"
+  },
+  "loginHidePassword": "隐藏密码",
+  "@loginHidePassword": {
+    "description": "Tooltip to obscure the password"
+  },
+  "lockTitle": "文件浏览器已锁定",
+  "@lockTitle": {
+    "description": "Lock screen headline"
+  },
+  "lockUnlock": "解锁",
+  "@lockUnlock": {
+    "description": "Biometric unlock button"
+  },
+  "lockUseDifferentServer": "使用其他服务器",
+  "@lockUseDifferentServer": {
+    "description": "Lock screen action to forget and set up another server"
+  },
+  "sourceSelectTitle": "选择存储源",
+  "@sourceSelectTitle": {
+    "description": "Source selection screen app bar title"
+  },
+  "lockWithUser": "锁定（{username}）",
+  "@lockWithUser": {
+    "description": "Lock action labelled with the signed-in username",
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "breadcrumbsRoot": "文件",
+  "@breadcrumbsRoot": {
+    "description": "Label of the root breadcrumb (the source root)"
+  },
+  "browserUpTooltip": "上一级",
+  "@browserUpTooltip": {
+    "description": "Tooltip: navigate to the parent directory"
+  },
+  "browserSearchTooltip": "搜索",
+  "@browserSearchTooltip": {
+    "description": "Tooltip: open search"
+  },
+  "browserSortTooltip": "排序",
+  "@browserSortTooltip": {
+    "description": "Tooltip: open the sort menu"
+  },
+  "browserRefreshTooltip": "刷新",
+  "@browserRefreshTooltip": {
+    "description": "Tooltip: reload the directory listing"
+  },
+  "browserMoreOptionsTooltip": "更多选项",
+  "@browserMoreOptionsTooltip": {
+    "description": "Tooltip: overflow menu"
+  },
+  "sortName": "名称",
+  "@sortName": {
+    "description": "Sort menu: by name"
+  },
+  "sortSize": "大小",
+  "@sortSize": {
+    "description": "Sort menu: by size"
+  },
+  "sortDateModified": "修改日期",
+  "@sortDateModified": {
+    "description": "Sort menu: by modification date"
+  },
+  "browserMenuDownloadFolder": "下载文件夹",
+  "@browserMenuDownloadFolder": {
+    "description": "Overflow menu: choose the default download folder"
+  },
+  "browserEmptyFolder": "文件夹为空",
+  "@browserEmptyFolder": {
+    "description": "Empty state of the directory grid"
+  },
+  "browserSelectedCount": "已选 {count} 项",
+  "@browserSelectedCount": {
+    "description": "Selection app bar title: number of selected items",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "browserExitSelectionTooltip": "退出多选",
+  "@browserExitSelectionTooltip": {
+    "description": "Tooltip: leave multiselect mode"
+  },
+  "browserSelectAll": "全选",
+  "@browserSelectAll": {
+    "description": "Tooltip: select every visible item"
+  },
+  "browserDeselectAll": "取消全选",
+  "@browserDeselectAll": {
+    "description": "Tooltip: clear the selection"
+  },
+  "browserDownloadAsZip": "打包下载（zip）",
+  "@browserDownloadAsZip": {
+    "description": "Action sheet: download a folder as a zip archive"
+  },
+  "browserShareLink": "分享链接",
+  "@browserShareLink": {
+    "description": "Create/show a public share link (sheet item and dialog title)"
+  },
+  "browserSaveDownloadTo": "下载保存到",
+  "@browserSaveDownloadTo": {
+    "description": "Title of the save-location dialog"
+  },
+  "browserAppStorageDefault": "应用存储（默认）",
+  "@browserAppStorageDefault": {
+    "description": "Shown when no custom download folder is set"
+  },
+  "browserChangeFolder": "更改文件夹…",
+  "@browserChangeFolder": {
+    "description": "Button that opens the directory picker"
+  },
+  "browserDownloadsSaveTo": "下载将保存到 {path}",
+  "@browserDownloadsSaveTo": {
+    "description": "Snackbar after picking a default download folder",
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "browserDownloadingItem": "正在下载 {name}…",
+  "@browserDownloadingItem": {
+    "description": "Snackbar when a download is enqueued",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "browserOpeningItem": "正在打开 {name}…",
+  "@browserOpeningItem": {
+    "description": "Snackbar while fetching a file for open-with",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "browserNoAppToOpen": "没有已安装的应用可以打开 {name}。",
+  "@browserNoAppToOpen": {
+    "description": "Error: no native app handles the file type",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "browserCouldNotOpen": "无法打开 {name}：{error}",
+  "@browserCouldNotOpen": {
+    "description": "Error opening a file",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "browserNewNameLabel": "新名称",
+  "@browserNewNameLabel": {
+    "description": "Label of the rename text field"
+  },
+  "browserRenameFailed": "重命名失败：{error}",
+  "@browserRenameFailed": {
+    "description": "Error snackbar when a rename fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "browserDeleteItemTitle": "删除 {name}？",
+  "@browserDeleteItemTitle": {
+    "description": "Delete confirmation dialog title for one item",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "browserDeleteFolderWarning": "将删除此文件夹及其中的全部内容。",
+  "@browserDeleteFolderWarning": {
+    "description": "Delete confirmation body for a folder"
+  },
+  "browserDeleteFileWarning": "此操作不可撤销。",
+  "@browserDeleteFileWarning": {
+    "description": "Delete confirmation body for a file"
+  },
+  "browserDeleteFailed": "删除失败：{error}",
+  "@browserDeleteFailed": {
+    "description": "Error snackbar when a delete fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "browserDeleteCountTitle": "删除 {count} 项？",
+  "@browserDeleteCountTitle": {
+    "description": "Delete confirmation dialog title for a selection",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "browserDeleteSelectedWarning": "选中的文件和文件夹（含其中内容）将被永久删除，此操作不可撤销。",
+  "@browserDeleteSelectedWarning": {
+    "description": "Delete confirmation body for a selection"
+  },
+  "browserDeleteFailedFor": "{count} 项删除失败：\n{failures}",
+  "@browserDeleteFailedFor": {
+    "description": "Error snackbar listing per-item delete failures",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "failures": {
+        "type": "String"
+      }
+    }
+  },
+  "browserDownloadingCountZip": "正在将 {count} 项打包下载…",
+  "@browserDownloadingCountZip": {
+    "description": "Snackbar when a multi-item zip download is enqueued",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "browserMoveTo": "移动到",
+  "@browserMoveTo": {
+    "description": "Destination picker title for a move"
+  },
+  "browserCopyTo": "复制到",
+  "@browserCopyTo": {
+    "description": "Destination picker title for a copy"
+  },
+  "browserMoveHere": "移到这里",
+  "@browserMoveHere": {
+    "description": "Destination picker confirm for a move"
+  },
+  "browserCopyHere": "复制到这里",
+  "@browserCopyHere": {
+    "description": "Destination picker confirm for a copy"
+  },
+  "browserVerbMoved": "已移动",
+  "@browserVerbMoved": {
+    "description": "Past-tense verb used in move batch summaries"
+  },
+  "browserVerbCopied": "已复制",
+  "@browserVerbCopied": {
+    "description": "Past-tense verb used in copy batch summaries"
+  },
+  "browserBatchFailedSummary": "{verb} {succeeded} 项，已跳过 {skipped} 项，{failedCount} 项失败：\n{failures}",
+  "@browserBatchFailedSummary": {
+    "description": "Batch move/copy summary when some items failed",
+    "placeholders": {
+      "verb": {
+        "type": "String"
+      },
+      "succeeded": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      },
+      "failedCount": {
+        "type": "int"
+      },
+      "failures": {
+        "type": "String"
+      }
+    }
+  },
+  "browserBatchCancelledSummary": "已取消；{verb} {succeeded} 项，已跳过 {skipped} 项",
+  "@browserBatchCancelledSummary": {
+    "description": "Batch move/copy summary when the user aborted mid-batch",
+    "placeholders": {
+      "verb": {
+        "type": "String"
+      },
+      "succeeded": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "browserBatchDoneSummary": "{verb} {succeeded} 项{skippedSuffix}",
+  "@browserBatchDoneSummary": {
+    "description": "Batch move/copy success summary; skippedSuffix is empty or browserSkippedSuffix",
+    "placeholders": {
+      "verb": {
+        "type": "String"
+      },
+      "succeeded": {
+        "type": "int"
+      },
+      "skippedSuffix": {
+        "type": "String"
+      }
+    }
+  },
+  "browserSkippedSuffix": "，已跳过 {count} 项",
+  "@browserSkippedSuffix": {
+    "description": "Suffix appended to the batch success summary when items were skipped",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "conflictTitle": "已存在",
+  "@conflictTitle": {
+    "description": "Name-conflict dialog title"
+  },
+  "conflictBody": "“{name}”在目标位置已存在。",
+  "@conflictBody": {
+    "description": "Name-conflict dialog body",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "conflictApplyToAll": "应用于其余所有项",
+  "@conflictApplyToAll": {
+    "description": "Checkbox to reuse the conflict choice for the rest of the batch"
+  },
+  "errorSessionExpiredDownload": "无法下载：会话已过期，请重新登录。",
+  "@errorSessionExpiredDownload": {
+    "description": "Error when a download cannot start because the session is gone"
+  },
+  "errorSessionExpiredOpen": "无法打开：会话已过期，请重新登录。",
+  "@errorSessionExpiredOpen": {
+    "description": "Error when open-with cannot start because the session is gone"
+  },
+  "errorSessionExpiredUpload": "无法上传：会话已过期，请重新登录。",
+  "@errorSessionExpiredUpload": {
+    "description": "Error when an upload cannot start because the session is gone"
+  },
+  "errorSessionExpiredRetry": "无法重试：会话已过期，请重新登录。",
+  "@errorSessionExpiredRetry": {
+    "description": "Error when a transfer retry cannot start because the session is gone"
+  },
+  "errorSessionExpiredShare": "无法分享：会话已过期，请重新登录。",
+  "@errorSessionExpiredShare": {
+    "description": "Error when sending file copies cannot start because the session is gone"
+  },
+  "browserFolderUploadFailed": "文件夹上传失败：{error}",
+  "@browserFolderUploadFailed": {
+    "description": "Error snackbar when a folder upload fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "browserNoFilesFoundIn": "在“{name}”中没有找到文件",
+  "@browserNoFilesFoundIn": {
+    "description": "Snackbar when a picked folder contains no files",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "browserUploadingCountFrom": "正在从“{name}”上传 {count} 个文件…",
+  "@browserUploadingCountFrom": {
+    "description": "Snackbar when a folder upload is enqueued",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "browserUploadingCount": "正在上传 {count} 个文件…",
+  "@browserUploadingCount": {
+    "description": "Snackbar when file uploads are enqueued",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "browserSkippedCount": "已跳过 {count} 个",
+  "@browserSkippedCount": {
+    "description": "Snackbar fragment: number of uploads skipped due to conflicts",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "browserNothingToUpload": "没有可上传的内容",
+  "@browserNothingToUpload": {
+    "description": "Snackbar when every upload was skipped/cancelled"
+  },
+  "browserOnlyFilesUpload": "只能上传文件",
+  "@browserOnlyFilesUpload": {
+    "description": "Snackbar when an inbound share contains no file-backed items"
+  },
+  "browserUploadCountTo": "上传 {count} 个文件到",
+  "@browserUploadCountTo": {
+    "description": "Destination picker title for an inbound share upload",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "browserUploadHere": "上传到这里",
+  "@browserUploadHere": {
+    "description": "Destination picker confirm for an inbound share upload"
+  },
+  "browserNewFolder": "新建文件夹",
+  "@browserNewFolder": {
+    "description": "Create-folder action (menu item, dialog title, picker button)"
+  },
+  "browserFolderNameLabel": "文件夹名称",
+  "@browserFolderNameLabel": {
+    "description": "Label of the new-folder name field"
+  },
+  "browserCouldNotCreateFolder": "无法创建文件夹：{error}",
+  "@browserCouldNotCreateFolder": {
+    "description": "Error snackbar when creating a folder fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "browserUploadFiles": "上传文件",
+  "@browserUploadFiles": {
+    "description": "Create menu: upload files"
+  },
+  "browserUploadFilesSubtitle": "选择一个或多个文件",
+  "@browserUploadFilesSubtitle": {
+    "description": "Create menu: upload files subtitle"
+  },
+  "browserUploadFolder": "上传文件夹",
+  "@browserUploadFolder": {
+    "description": "Create menu: upload a folder"
+  },
+  "browserUploadFolderSubtitle": "上传文件夹及其中的内容",
+  "@browserUploadFolderSubtitle": {
+    "description": "Create menu: upload folder subtitle"
+  },
+  "batchMoveIntoSelfError": "无法将文件夹移动到其自身或子文件夹中",
+  "@batchMoveIntoSelfError": {
+    "description": "Per-item batch error: illegal move destination"
+  },
+  "destinationChooseFolder": "选择文件夹",
+  "@destinationChooseFolder": {
+    "description": "Default destination picker title"
+  },
+  "destinationNoSubfolders": "这里没有子文件夹",
+  "@destinationNoSubfolders": {
+    "description": "Destination picker empty state (no files either)"
+  },
+  "destinationNoSubfoldersHidden": "没有子文件夹（已隐藏 {count} 个文件）",
+  "@destinationNoSubfoldersHidden": {
+    "description": "Destination picker empty state when only files exist",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "errorCopied": "错误信息已复制",
+  "@errorCopied": {
+    "description": "Confirmation snackbar after copying an error message"
+  },
+  "errorCopyAction": "复制",
+  "@errorCopyAction": {
+    "description": "Snackbar action that copies the error text (uppercase)"
+  },
+  "fileDetailsUnknown": "未知",
+  "@fileDetailsUnknown": {
+    "description": "Shown when the modified timestamp is absent"
+  },
+  "fileDetailsCopied": "已复制",
+  "@fileDetailsCopied": {
+    "description": "Confirmation snackbar after copying a detail value"
+  },
+  "fileDetailsPath": "路径",
+  "@fileDetailsPath": {
+    "description": "Detail row label: server path"
+  },
+  "fileDetailsSize": "大小",
+  "@fileDetailsSize": {
+    "description": "Detail row label: file size"
+  },
+  "fileDetailsModified": "修改时间",
+  "@fileDetailsModified": {
+    "description": "Detail row label: modification time"
+  },
+  "fileDetailsType": "类型",
+  "@fileDetailsType": {
+    "description": "Detail row label: file type"
+  },
+  "fileDetailsSha256": "sha256",
+  "@fileDetailsSha256": {
+    "description": "Detail row label: sha256 checksum"
+  },
+  "fileDetailsChecksumEmpty": "（空）",
+  "@fileDetailsChecksumEmpty": {
+    "description": "Shown when the server returns an empty checksum"
+  },
+  "fileDetailsComputing": "计算中…",
+  "@fileDetailsComputing": {
+    "description": "Checksum button label while computing"
+  },
+  "fileDetailsComputeChecksum": "计算校验和（sha256）",
+  "@fileDetailsComputeChecksum": {
+    "description": "Button that requests the sha256 checksum"
+  },
+  "fileDetailsChecksumFailed": "校验失败：{error}",
+  "@fileDetailsChecksumFailed": {
+    "description": "Error shown when the checksum request fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "galleryTitle": "{position} / {total}  ·  {name}",
+  "@galleryTitle": {
+    "description": "Image viewer title: 1-based position, total count, file name",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "searchHint": "在 {name} 中搜索…",
+  "@searchHint": {
+    "description": "Search field hint scoped to the current folder",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "searchClearTooltip": "清除",
+  "@searchClearTooltip": {
+    "description": "Tooltip: clear the search query"
+  },
+  "searchTypeToSearch": "输入以搜索此文件夹",
+  "@searchTypeToSearch": {
+    "description": "Search empty-query hint"
+  },
+  "searchKeepTyping": "继续输入（至少 {min} 个字符）",
+  "@searchKeepTyping": {
+    "description": "Hint when the query is below the server minimum length",
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "searchNoResults": "没有找到“{query}”的相关结果",
+  "@searchNoResults": {
+    "description": "Search no-results state",
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "shareCouldNotCreate": "无法创建分享：{error}",
+  "@shareCouldNotCreate": {
+    "description": "Error snackbar when creating a share link fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "sharePasswordProtected": "有密码保护",
+  "@sharePasswordProtected": {
+    "description": "Share result: link requires a password"
+  },
+  "shareNoPassword": "无密码",
+  "@shareNoPassword": {
+    "description": "Share result: link has no password"
+  },
+  "shareLinkCopied": "链接已复制",
+  "@shareLinkCopied": {
+    "description": "Confirmation snackbar after copying a share URL"
+  },
+  "shareDialogPasswordLabel": "密码（可选）",
+  "@shareDialogPasswordLabel": {
+    "description": "Label of the optional share password field"
+  },
+  "shareDialogExpiresLabel": "过期时间",
+  "@shareDialogExpiresLabel": {
+    "description": "Label of the expiry amount field"
+  },
+  "shareDialogExpiryLabel": "到期",
+  "@shareDialogExpiryLabel": {
+    "description": "Label of the expiry unit dropdown"
+  },
+  "shareDialogPositiveNumber": "请输入正数",
+  "@shareDialogPositiveNumber": {
+    "description": "Validation error for the expiry amount"
+  },
+  "shareDialogCreateLink": "创建链接",
+  "@shareDialogCreateLink": {
+    "description": "Confirm button of the create-share dialog"
+  },
+  "shareSendCopy": "{count, plural, =1{发送文件} other{发送 {count} 个文件}}",
+  "@shareSendCopy": {
+    "description": "Share chooser option: send local copies via the system share sheet",
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "shareSendCopySubtitle": "通过其他应用分享副本",
+  "@shareSendCopySubtitle": {
+    "description": "Subtitle of the send-copy share option when available"
+  },
+  "shareSendFoldersUnsupported": "文件夹无法作为文件发送",
+  "@shareSendFoldersUnsupported": {
+    "description": "Subtitle of the send-copy share option when the selection contains a folder"
+  },
+  "shareLinkSubtitle": "在服务器上创建公开链接",
+  "@shareLinkSubtitle": {
+    "description": "Subtitle of the share-link option when available"
+  },
+  "shareLinkSelectOne": "选择单个项目以分享链接",
+  "@shareLinkSelectOne": {
+    "description": "Subtitle of the share-link option when more than one item is selected"
+  },
+  "sharePreparingCount": "{count, plural, =1{正在准备文件…} other{正在准备 {count} 个文件…}}",
+  "@sharePreparingCount": {
+    "description": "Snackbar while items download to the device before the system share sheet opens",
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "shareCouldNotSend": "无法发送：{error}",
+  "@shareCouldNotSend": {
+    "description": "Error snackbar when preparing/sending file copies fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "shareLargeTitle": "发送大文件？",
+  "@shareLargeTitle": {
+    "description": "Confirmation title before downloading a large selection for sending"
+  },
+  "shareLargeBody": "分享前会先将 {size} 下载到你的设备。",
+  "@shareLargeBody": {
+    "description": "Confirmation body before downloading a large selection for sending",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "sharesTitle": "分享链接",
+  "@sharesTitle": {
+    "description": "Shares screen title and overflow menu item"
+  },
+  "sharesDeleteTitle": "删除分享链接？",
+  "@sharesDeleteTitle": {
+    "description": "Delete-share confirmation dialog title"
+  },
+  "sharesDeleteBody": "“{path}”的公开链接将失效，此操作不可撤销。",
+  "@sharesDeleteBody": {
+    "description": "Delete-share confirmation dialog body",
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "sharesCouldNotDelete": "无法删除分享：{error}",
+  "@sharesCouldNotDelete": {
+    "description": "Error snackbar when deleting a share fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "sharesEmpty": "还没有分享链接",
+  "@sharesEmpty": {
+    "description": "Shares screen empty state"
+  },
+  "sharesEmptyHint": "在文件或文件夹上使用“分享链接”来创建一个。",
+  "@sharesEmptyHint": {
+    "description": "Shares screen empty-state hint"
+  },
+  "sharesActionsTooltip": "分享操作",
+  "@sharesActionsTooltip": {
+    "description": "Tooltip of the per-share actions menu"
+  },
+  "sharesCopyLink": "复制链接",
+  "@sharesCopyLink": {
+    "description": "Share actions menu: copy the public URL"
+  },
+  "statusTitle": "状态",
+  "@statusTitle": {
+    "description": "Status screen title and overflow menu item"
+  },
+  "statusSectionStorage": "存储",
+  "@statusSectionStorage": {
+    "description": "Status section header: disk usage"
+  },
+  "statusSectionAccount": "账号",
+  "@statusSectionAccount": {
+    "description": "Status section header: signed-in user"
+  },
+  "statusSectionServer": "服务器",
+  "@statusSectionServer": {
+    "description": "Status section header: server info"
+  },
+  "statusDiskUsageUnavailable": "无法获取磁盘用量",
+  "@statusDiskUsageUnavailable": {
+    "description": "Shown when the source reports no capacity"
+  },
+  "statusDiskUsageUnavailableHint": "服务器未上报此存储源的容量。",
+  "@statusDiskUsageUnavailableHint": {
+    "description": "Subtitle explaining missing disk usage"
+  },
+  "statusUsedOfTotal": "已用 {used} / 共 {total}（{percent}%）",
+  "@statusUsedOfTotal": {
+    "description": "Disk usage line; used/total are humanized sizes, percent has one decimal",
+    "placeholders": {
+      "used": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "statusFree": "可用 {free}",
+  "@statusFree": {
+    "description": "Free space line; free is a humanized size",
+    "placeholders": {
+      "free": {
+        "type": "String"
+      }
+    }
+  },
+  "statusUnknownUser": "未知用户",
+  "@statusUnknownUser": {
+    "description": "Shown when the username is unknown"
+  },
+  "statusReadOnly": "只读",
+  "@statusReadOnly": {
+    "description": "Shown when the user has no write permissions"
+  },
+  "statusPermissions": "权限：{permissions}",
+  "@statusPermissions": {
+    "description": "Comma-joined list of granted permissions",
+    "placeholders": {
+      "permissions": {
+        "type": "String"
+      }
+    }
+  },
+  "statusPermCreate": "创建",
+  "@statusPermCreate": {
+    "description": "Permission name: create"
+  },
+  "statusPermModify": "修改",
+  "@statusPermModify": {
+    "description": "Permission name: modify"
+  },
+  "statusLoadingServerInfo": "正在加载服务器信息…",
+  "@statusLoadingServerInfo": {
+    "description": "Server card while settings load"
+  },
+  "statusServerInfoUnavailable": "服务器信息不可用",
+  "@statusServerInfoUnavailable": {
+    "description": "Server card when settings are inaccessible"
+  },
+  "statusRequiresAdmin": "需要管理员账号。",
+  "@statusRequiresAdmin": {
+    "description": "Subtitle explaining missing server info"
+  },
+  "statusSignupEnabled": "已允许注册",
+  "@statusSignupEnabled": {
+    "description": "Server card subtitle when signup is on"
+  },
+  "statusSignupDisabled": "已禁止注册",
+  "@statusSignupDisabled": {
+    "description": "Server card subtitle when signup is off"
+  },
+  "statusManageSharedLinks": "管理分享链接",
+  "@statusManageSharedLinks": {
+    "description": "Button that opens the shares screen"
+  },
+  "textViewerCouldNotLoad": "无法加载 {name}：{error}",
+  "@textViewerCouldNotLoad": {
+    "description": "Error when fetching a text file fails",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "textViewerEmptyFile": "（空文件）",
+  "@textViewerEmptyFile": {
+    "description": "Shown for a zero-byte text file"
+  },
+  "textViewerTooLarge": "文件过大，无法预览（{size}）。",
+  "@textViewerTooLarge": {
+    "description": "Shown when a text file exceeds the preview cap; size is humanized",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "transfersTitle": "传输",
+  "@transfersTitle": {
+    "description": "Transfers screen title and app bar tooltip"
+  },
+  "transfersClearFinished": "清除已完成",
+  "@transfersClearFinished": {
+    "description": "Tooltip: remove completed/failed transfers from the list"
+  },
+  "transfersEmpty": "还没有传输任务",
+  "@transfersEmpty": {
+    "description": "Transfers screen empty state"
+  },
+  "transfersProgressSemantics": "传输进度",
+  "@transfersProgressSemantics": {
+    "description": "Semantics label of the per-transfer progress bar"
+  },
+  "transfersStatusQueued": "排队中",
+  "@transfersStatusQueued": {
+    "description": "Transfer status: waiting to start"
+  },
+  "transfersStatusTransferring": "传输中 {percent}%",
+  "@transfersStatusTransferring": {
+    "description": "Transfer status: running, with percent complete",
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "transfersStatusPaused": "已暂停 {percent}%",
+  "@transfersStatusPaused": {
+    "description": "Transfer status: paused, with percent complete",
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "transfersStatusRetrying": "等待重试…",
+  "@transfersStatusRetrying": {
+    "description": "Transfer status: backing off before a retry"
+  },
+  "transfersStatusComplete": "已完成",
+  "@transfersStatusComplete": {
+    "description": "Transfer status: finished successfully"
+  },
+  "transfersStatusFailed": "失败",
+  "@transfersStatusFailed": {
+    "description": "Transfer status: failed"
+  },
+  "transfersStatusCanceled": "已取消",
+  "@transfersStatusCanceled": {
+    "description": "Transfer status: canceled by the user"
+  },
+  "videoCouldNotPlay": "无法播放视频：\n{error}",
+  "@videoCouldNotPlay": {
+    "description": "Error shown (and copied) when video playback fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
+}
